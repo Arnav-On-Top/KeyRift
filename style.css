@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    background: linear-gradient(to right, purple, cyan);
+    color: white;
+    font-family: monospace;
+    overflow: hidden;
+    user-select: none;
+    cursor: none;
+}
+#page {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid black;
+}
+#side {
+    width: 250px;
+    border-right: 1px solid black;
+    padding: 25px;
+    color: white;
+    font-size: 13px;
+}
+#side h2 {
+    color: black;
+    font-size: 19px;
+    letter-spacing: 3px;
+    margin-top: 0;
+}
+#side h3 {
+    color: black;
+    font-size: 13px;
+    margin-top: 25px;
+}
+#side p {
+    margin: 10px 0;
+}
+#normalBest {
+    color: yellow;
+}
+#memoryBest {
+    color: gold;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #333333;
+    margin-top: 20px;
+}
+#sideStatus {
+    color: black;
+}
+#game {
+    width: 650px;
+    padding: 35px;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+#info {
+    color: black;
+    font-size: 14px;
+    margin-top: 25px;
+}
+#mode {
+    margin-top: 25px;
+    font-size: 13px;
+    color: black;
+}
+#time {
+    margin-top: 8px;
+    font-size: 13px;
+    color: black;
+}
+#score {
+    margin-top: 8px;
+    font-size: 13px;
+    color: black;
+}
+#sequence {
+    margin-top: 80px;
+    min-height: 50px;
+    font-size: 28px;
+    letter-spacing: 7px;
+    line-height: 50px;
+}
+#typed {
+    margin-top: 30px;
+    min-height: 30px;
+    color: yellow;
+    font-size: 19px;
+    letter-spacing: 4px;
+}
+#message {
+    margin-top: 30px;
+    min-height: 20px;
+    color: black;
+    font-size: 14px;
+}
+body.correct {
+    background: lightgreen;
+}
+body.wrong {
+    background: brown;
+}
+body.memory {
+    background: black;
+}
